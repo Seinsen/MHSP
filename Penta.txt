@@ -1,4 +1,4 @@
-<!docktype HTML>
+<!doctype HTML>
 <Head>
 <style>
 
