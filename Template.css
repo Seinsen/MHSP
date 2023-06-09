@@ -148,3 +148,26 @@ hr {
  Margin: 10px;
  Margin-top: 10px; 
 }
+
+a:link {
+  text-decoration: none;
+	font-weight: bold;
+	color:white;
+}
+
+a:visited {
+  text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+	font-weight: bold;
+		color:lightgrey;
+}
+
+a:active {
+  text-decoration: underline;
+	font-weight: bold;
+	color:lgrey;
+}
