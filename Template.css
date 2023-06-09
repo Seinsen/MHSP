@@ -163,11 +163,11 @@ a:visited {
 a:hover {
   text-decoration: underline;
 	font-weight: bold;
-		color:lightgrey;
+		color:black;
 }
 
 a:active {
   text-decoration: underline;
 	font-weight: bold;
-	color:lgrey;
+	color:blacky;
 }
