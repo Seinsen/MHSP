@@ -203,8 +203,13 @@ div.container {
 <body>
 
 <nav>
- <a href="file:///C:/Users/user/Downloads/Makati%20Highschool%20Canteen%20Hotdogs/MHS.html"> Homepage</a>
- <a href="#Team"> Team</a>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰</button>  
+</div>
+
+ <a href="/MHSP/index.html"> Homepage</a>
+
   <div class="dropdown">
 
     <button class="dropbtn">History
@@ -214,21 +219,41 @@ div.container {
 
     <div class="dropdown-content">
 
-      <a href="#">School History</a>
-      <a href="#">History of Principals</a>
-      <a href="#">Timeline</a>
+      <a href="/MHSP/Webpages/History/MKHistory.html">School History</a>
+      <a href="/MHSP/Webpages/Principal/HPrincipal.html">History of Principals</a>
     </div>
 
   </div> 
 
- <a href="#Principle">Principle</a>
- <a href="#Heads">Heads</a>
- <a href="#Clubs">Clubs</a>
- <a href="#Events">Events</a>
- <a href="#Reference">Reference</a>
+ <a href="/MHSP/Webpages/Principle/Principle.html">Principle</a>
+ <a href="/MHSP/Webpages/Heads/Heads.html">Heads</a>
+ <a href="/MHSP/Webpages/Clubs/Clubs.html">Clubs</a>
+ <a href="/MHSP/Webpages/Events/Events.html">Events</a>
+ <a href="/MHSP/Webpages/Refrence/Refrence.html">Reference</a>
 
+</div>
 
 </nav>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+ <a href="/MHSP/Webpages/Team1/Team.html"> Team</a>
+  <a href="/MHSP/Webpages/CREDITS.html">Credits</a>
+  <a href="/MHSP/Webpages/Contacts.html">Contact</a>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
 
 
 <div Id="Exia">
